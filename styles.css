@@ -1,0 +1,52 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abu Bakar Karyana Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Abu Bakar Karyana Store</h1>
+        <p>Your trusted source for fresh groceries and daily essentials.</p>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Rice">
+                <h3>Rice</h3>
+                <p>$5.99 per kg</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Sugar">
+                <h3>Sugar</h3>
+                <p>$2.49 per kg</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: [Your Address Here]</p>
+        <p>Phone: [Your Phone Number]</p>
+        <p>Email: [Your Email]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Abu Bakar Karyana Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
